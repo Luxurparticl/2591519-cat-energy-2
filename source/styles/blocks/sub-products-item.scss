@@ -1,0 +1,16 @@
+.sub-products-item__title {
+  line-height: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.sub-products-item__description {
+  font-family: $secondary-font;
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.sub-products-item__button {
+  background-color: $button-bg-color;
+}

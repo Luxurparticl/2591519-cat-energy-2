@@ -1,0 +1,21 @@
+.hero__wrapper {
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: rgba(104, 183, 56, 0.85);
+  text-align: center;
+}
+
+.hero__title {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 400;
+}
+
+.hero__description {
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.hero__button {
+  background-color: $button-bg-color;
+}

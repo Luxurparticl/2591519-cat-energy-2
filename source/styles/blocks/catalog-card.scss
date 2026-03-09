@@ -1,0 +1,25 @@
+.catalog-card__title {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #222222;
+}
+
+.catalog-card__text {
+  font-family: $secondary-font;
+  font-size: 12px;
+  line-height: 16px;
+  color: $secondary-color;
+}
+
+.catalog-card__button {
+  color: #ffffff;
+  background-color: $button-bg-color;
+}
+
+.catalog-card--more {
+  text-align: center;
+
+  .catalog-card__title {
+    color: #111111;
+  }
+}
