@@ -1,0 +1,21 @@
+.promo__title {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.promo__text {
+  line-height: 24px;
+  text-align: center;
+}
+
+.promo__input::placeholder {
+  color: #444444;
+}
+
+.promo__button {
+  font-size: 20px;
+  line-height: 26px;
+  background-color: $button-bg-color;
+}
