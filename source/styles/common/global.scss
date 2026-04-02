@@ -9,7 +9,6 @@
 img {
   max-width: 100%;
   height: auto;
-  object-fit: contain;
 }
 
 body {
@@ -18,4 +17,6 @@ body {
   line-height: $basic-height;
   color: $basic-color;
   background-color: $basic-bg-color;
+  margin: 0;
+  padding: 0;
 }

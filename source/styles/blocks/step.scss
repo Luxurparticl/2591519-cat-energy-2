@@ -1,0 +1,54 @@
+.step::before {
+  content: "";
+  background-color: #68b738;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  display: block;
+  width: 60px;
+  height: 60px;
+}
+
+.step--one::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../icons/stack.svg#leaf");
+  background-size: 30px 32px;
+  display: block;
+  width: 30px;
+  height: 32px;
+  top: 14px;
+  left: 15px;
+}
+
+.step--two::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../icons/stack.svg#powder");
+  display: block;
+  width: 25px;
+  height: 28px;
+  top: 16px;
+  left: 18px;
+}
+
+.step--three::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../icons/stack.svg#eat");
+  display: block;
+  width: 25px;
+  height: 28px;
+  top: 15px;
+  left: 18px;
+}
+
+.step--four::after {
+  content: "";
+  position: absolute;
+  background-image: url("../../icons/stack.svg#clock");
+  display: block;
+  width: 25px;
+  height: 28px;
+  top: 15px;
+  left: 18px;
+}

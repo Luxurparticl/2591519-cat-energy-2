@@ -1,8 +1,17 @@
 .hero__wrapper {
   text-transform: uppercase;
   color: #ffffff;
-  background-color: rgba(104, 183, 56, 0.85);
+  background-image:
+    linear-gradient(rgba(104, 183, 56, 0.85)),
+    image-set(
+      url("../../images/hero-background@1x.webp") type("image/webp") 1x,
+      url("../../images/hero-background@2x.webp") type("image/webp") 2x,
+      url("../../images/hero-background@1x.png") type("image/png") 1x,
+      url("../../images/hero-background@2x.png") type("image/png") 2x,
+    );
   text-align: center;
+  width: 320px;
+  height: 302px;
 }
 
 .hero__title {

@@ -15,23 +15,28 @@
 
 <body class="page__body">
   <header class="header">
-    <a class="header-logo logo" href="index.html">
-      <img class="logo__image" src="../images/logo.svg" width="202" height="59" alt="Логотип Cat Energy">
+    <a class="header-logo logo link" href="index.html">
+      <picture>
+        <source media="(min-width: 1440px)" srcset="images/logo-desktop.svg" width="70" height="59" type="image/svg+xml">
+        <source media="(min-width: 768px)" srcset="images/logo-tablet.svg" width="60" height="50" type="image/svg+xml">
+        <img class="logo__image" src="images/logo-mobile.svg" width="33" height="38" alt="Логотип Cat Energy">
+      </picture>
+      <img class="logo__text" src="images/logo-text.svg" alt="Товарный знак Cat Energy" width="101" height="18">
     </a>
     <nav class="main-nav">
       <ul class="main-nav__list list">
         <li class="main-nav__item">
-          <a class="main-nav__link" href="index.html">
+          <a class="main-nav__link link" href="index.html">
             Главная
           </a>
         </li>
         <li class="main-nav__item">
-          <a class="main-nav__link main-nav__link--current" href="catalog.html" aria-current="page">
+          <a class="main-nav__link main-nav__link--current link" href="catalog.html" aria-current="page">
             Каталог продукции
           </a>
         </li>
         <li class="main-nav__item">
-          <a class="main-nav__link" href="#">
+          <a class="main-nav__link link" href="#">
             Подбор программы
           </a>
         </li>
@@ -204,10 +209,10 @@
         </li>
         <li class="catalog__item catalog-card catalog-card--more">
           <div class="catalog-card__content">
-            <h2 class="catalog-card__title">Показать ещё 100500 товаров</h2>
+            <h2 class="catalog-card__title catalog-card__title--more">Показать еще 100500 товаров</h2>
             <p class="catalog-card__text">На самом деле вкусов гораздо больше!</p>
           </div>
-          <button class="catalog-card__button button" type="button">Показать все</button>
+          <button class="catalog-card__button button catalog-card__button--more" type="button">Показать все</button>
         </li>
       </ul>
     </section>
@@ -276,27 +281,27 @@
     </section>
   </main>
   <footer class="footer">
-    <a class="footer__logo" href="#">
-      <img src="#" width="128" height="24" alt="Cat Energy">
+    <a class="footer__logo link" href="#">
+      <img src="images/logo-text.svg" width="128" height="24" alt="Cat Energy">
     </a>
     <ul class="footer__socials socials list">
       <li class="socials__item">
-        <a class="socials__link socials__link--vk" href="https://vk.com/htmlacademy">
+        <a class="socials__link socials__link--vk link" href="https://vk.com/htmlacademy">
           <span class="visually-hidden">VK</span>
         </a>
       </li>
       <li class="socials__item">
-        <a class="socials__link socials__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
+        <a class="socials__link socials__link--youtube link" href="https://www.youtube.com/user/htmlacademyru">
           <span class="visually-hidden">Youtube</span>
         </a>
       </li>
       <li class="socials__item">
-        <a class="socials__link socials__link--tg" href="https://t.me/htmlacademy">
+        <a class="socials__link socials__link--tg link" href="https://t.me/htmlacademy">
           <span class="visually-hidden">Telegram</span>
         </a>
       </li>
     </ul>
-    <a class="copyright" href="https://htmlacademy.ru/">
+    <a class="copyright link" href="https://htmlacademy.ru/">
       <span class="copyright__caption">HTML Academy</span>
     </a>
   </footer>
