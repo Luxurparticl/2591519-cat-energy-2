@@ -1,0 +1,15 @@
+.copyright__caption {
+  display: flex;
+  font-family: $secondary-font;
+  color: $secondary-color;
+}
+
+.copyright__caption::after {
+  content: "";
+  background-color: $secondary-color-2;
+  display: block;
+  width: 27px;
+  height: 34px;
+  mask-image: url("../../icons/html-academy.svg");
+  mask-size: 27px 34px;
+}

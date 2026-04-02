@@ -1,7 +1,35 @@
+.catalog-card--more {
+  position: relative;
+  text-align: center;
+}
+
 .catalog-card__title {
   font-weight: 400;
   text-transform: uppercase;
   color: #222222;
+}
+
+.catalog-card__title--more::before {
+  content: "";
+  background-color: #d3d3d3;
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  left: 50%;
+  top: -40px;
+}
+
+.catalog-card__title--more::after {
+  content: "";
+  background-color: #d3d3d3;
+  display: block;
+  position: absolute;
+  width: 2px;
+  height: 30px;
+  left: 50%;
+  top: -40px;
+  transform: rotate(90deg);
 }
 
 .catalog-card__text {
@@ -16,10 +44,7 @@
   background-color: $button-bg-color;
 }
 
-.catalog-card--more {
-  text-align: center;
-
-  .catalog-card__title {
-    color: #111111;
-  }
+.catalog-card__button--more {
+  color: $secondary-color;
+  background-color: #f2f2f2;
 }
